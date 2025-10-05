@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
+<title>Cloud Mastery by Ajayvickram</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -11,56 +11,68 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #101820;
+  color: #fff;
 }
 
-/* Style the header */
+/* Header */
 header {
-  background-color: #666;
+  background-color: #1f1f1f;
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: yellow;
+  color: #00ffcc;
 }
 
-/* Create two columns/boxes that floats next to each other */
+/* Navigation */
 nav {
   float: left;
   width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
+  height: 300px;
+  background: #2a2a2a;
   padding: 20px;
 }
 
-/* Style the list inside the menu */
 nav ul {
   list-style-type: none;
   padding: 0;
 }
 
+nav ul li a {
+  color: #00ffcc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
 article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  background-color: #181818;
+  height: 300px;
 }
 
-/* Clear floats after the columns */
+/* Clear floats */
 section::after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Style the footer */
+/* Footer */
 footer {
-  background-color: #777;
+  background-color: #1f1f1f;
   padding: 10px;
   text-align: center;
-  color: yellow;
+  color: #00ffcc;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+/* Responsive */
 @media (max-width: 600px) {
   nav, article {
     width: 100%;
@@ -71,31 +83,29 @@ footer {
 </head>
 <body>
 
-
 <header>
-  <h2>Free DevOps Course By Abhishek</h2>
+  <h2>Free DevOps & Cloud Course by Ajayvickram</h2>
 </header>
 
 <section>
   <nav>
     <ul>
-      <li><a href="www.youtube.com/@AbhishekVeeramalla">YouTube</a></li>
-      <li><a href="www.linkedin.com/in/abhishek-veeramalla-77b33996/">LinkedIn</a></li>
-      <li><a href="https://telegram.me/abhishekveeramalla">Telegram</a></li>
+      <li><a href="https://www.youtube.com/@Ajayvickram">YouTube</a></li>
+      <li><a href="https://www.linkedin.com/in/ajayvickram-a/">LinkedIn</a></li>
+      <li><a href="https://t.me/ajayvickramcloud">Telegram</a></li>
     </ul>
   </nav>
   
   <article>
     <h1>Agenda</h1>
-    <p>Learn DevOps with strong foundational knowledge and practical understanding</p>
-    <p>Please Share the Channel with your friends and colleagues</p>
+    <p>Master DevOps & AWS Cloud from scratch — with real-world examples, automation tips, and project-based learning.</p>
+    <p>Share this with your cloud fam & keep leveling up 🚀</p>
   </article>
 </section>
 
 <footer>
-  <p>@AbhishekVeeramalla</p>
+  <p>@Ajayvickram | Cloud Engineer ⚡</p>
 </footer>
 
 </body>
 </html>
-
